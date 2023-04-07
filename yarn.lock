@@ -454,6 +454,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bezier-easing@npm:2.1.0":
+  version: 2.1.0
+  resolution: "bezier-easing@npm:2.1.0"
+  checksum: 4214df751c27355016de4ac178abd97c08ec8e2cac0ded2f1234bbcda53d819ec7fac30b14960bbebebe6c40fe359354a42f646b2a5ee347b34146dac37b152b
+  languageName: node
+  linkType: hard
+
 "binary-extensions@npm:^2.0.0":
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
@@ -2381,6 +2388,7 @@ __metadata:
     vite-plugin-vuetify: "npm:^1.0.0-alpha.12"
     vue: "npm:^3.2.13"
     vue-router: "npm:^4.0.0"
+    vue-scrollto: "npm:^2.20.0"
     vuetify: "npm:^3.0.0"
     webfontloader: "npm:^1.0.0"
   languageName: unknown
@@ -2559,6 +2567,15 @@ __metadata:
   peerDependencies:
     vue: ^3.2.0
   checksum: bd26aa6dca5a779f0d3472971751a051a764b6f053e26e50d0ebc24b9b21b5b52adc6498a3fc322fd7166c01c8290d1b3f43c63baaacfed8d51ecaf740e88504
+  languageName: node
+  linkType: hard
+
+"vue-scrollto@npm:^2.20.0":
+  version: 2.20.0
+  resolution: "vue-scrollto@npm:2.20.0"
+  dependencies:
+    bezier-easing: "npm:2.1.0"
+  checksum: 1220f919453c89f328182369a6d54b133447103341bc4c3453b2429b6e307f1f890efdc67417ae0c0e9aebfe0eaecd4339656634445e9383a3739ddbb8f81f14
   languageName: node
   linkType: hard
 

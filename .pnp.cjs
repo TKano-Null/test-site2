@@ -38,6 +38,7 @@ const RAW_RUNTIME_STATE =
           ["vite-plugin-vuetify", "virtual:95b4e9958c2aab0e3cc8b9a96d8a7cc81553b770dd0545e3e90743ae9a7f118652d3609a23972fa68237f441e8ea147ad10eef884b4944bdd3368ca266c5de0c#npm:1.0.2"],\
           ["vue", "npm:3.2.47"],\
           ["vue-router", "virtual:95b4e9958c2aab0e3cc8b9a96d8a7cc81553b770dd0545e3e90743ae9a7f118652d3609a23972fa68237f441e8ea147ad10eef884b4944bdd3368ca266c5de0c#npm:4.1.6"],\
+          ["vue-scrollto", "npm:2.20.0"],\
           ["vuetify", "virtual:95b4e9958c2aab0e3cc8b9a96d8a7cc81553b770dd0545e3e90743ae9a7f118652d3609a23972fa68237f441e8ea147ad10eef884b4944bdd3368ca266c5de0c#npm:3.1.13"],\
           ["webfontloader", "npm:1.6.28"]\
         ],\
@@ -618,6 +619,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/balanced-match-npm-1.0.2-a53c126459-9.zip/node_modules/balanced-match/",\
         "packageDependencies": [\
           ["balanced-match", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bezier-easing", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/bezier-easing-npm-2.1.0-71cc003779-9.zip/node_modules/bezier-easing/",\
+        "packageDependencies": [\
+          ["bezier-easing", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2777,6 +2787,7 @@ const RAW_RUNTIME_STATE =
           ["vite-plugin-vuetify", "virtual:95b4e9958c2aab0e3cc8b9a96d8a7cc81553b770dd0545e3e90743ae9a7f118652d3609a23972fa68237f441e8ea147ad10eef884b4944bdd3368ca266c5de0c#npm:1.0.2"],\
           ["vue", "npm:3.2.47"],\
           ["vue-router", "virtual:95b4e9958c2aab0e3cc8b9a96d8a7cc81553b770dd0545e3e90743ae9a7f118652d3609a23972fa68237f441e8ea147ad10eef884b4944bdd3368ca266c5de0c#npm:4.1.6"],\
+          ["vue-scrollto", "npm:2.20.0"],\
           ["vuetify", "virtual:95b4e9958c2aab0e3cc8b9a96d8a7cc81553b770dd0545e3e90743ae9a7f118652d3609a23972fa68237f441e8ea147ad10eef884b4944bdd3368ca266c5de0c#npm:3.1.13"],\
           ["webfontloader", "npm:1.6.28"]\
         ],\
@@ -3040,6 +3051,16 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/vue",\
           "vue"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vue-scrollto", [\
+      ["npm:2.20.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/vue-scrollto-npm-2.20.0-c30c1cc6ba-9.zip/node_modules/vue-scrollto/",\
+        "packageDependencies": [\
+          ["vue-scrollto", "npm:2.20.0"],\
+          ["bezier-easing", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
