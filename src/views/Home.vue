@@ -1,11 +1,8 @@
 <template>
   <v-app>
     <v-main class="bg-black">
-      <v-btn href="#" v-scroll-to="'#test'" :active="false">
-        Scrolle Button
-      </v-btn>
+      <v-btn href="#" v-scroll-to="'#test'"> Scrolle Button </v-btn>
       <v-container>
-        <!-- justify contentsを中央揃えに -->
         <v-row>
           <v-sheet style="width: 800px">
             <v-card>
